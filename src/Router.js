@@ -4,6 +4,7 @@ import MusicaComponent from "./components/MusicaComponent.vue";
 import CineComponent from "./components/CineComponent.vue";
 import CicloVidaComponent from "./components/CicloVidaComponent.vue";
 import DirectivasComponent from "./components/DirectivasComponent.vue";
+import ParImparComponent from "./components/ParImparComponent.vue";
 
 const myRoutes = [
   {
@@ -25,6 +26,10 @@ const myRoutes = [
   {
     path: "/directivas",
     component: DirectivasComponent,
+  },
+  {
+    path: "/parImpar",
+    component: ParImparComponent,
   },
 ];
 

@@ -16,6 +16,9 @@
       <li>
         <router-link to="/directivas">Directivas</router-link>
       </li>
+      <li>
+        <router-link to="/parImpar">Par o Impar</router-link>
+      </li>
     </ul>
   </nav>
 </template>

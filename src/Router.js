@@ -5,6 +5,8 @@ import CineComponent from "./components/CineComponent.vue";
 import CicloVidaComponent from "./components/CicloVidaComponent.vue";
 import DirectivasComponent from "./components/DirectivasComponent.vue";
 import ParImparComponent from "./components/ParImparComponent.vue";
+import PropiedadConmutada from "./components/PropiedadConmutada.vue";
+import MetodosFilters from "./components/MetodosFilters.vue";
 
 const myRoutes = [
   {
@@ -30,6 +32,14 @@ const myRoutes = [
   {
     path: "/parImpar",
     component: ParImparComponent,
+  },
+  {
+    path: "/propiedadConmutada",
+    component: PropiedadConmutada,
+  },
+  {
+    path: "/metodosFilters",
+    component: MetodosFilters,
   },
 ];
 

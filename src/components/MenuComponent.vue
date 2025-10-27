@@ -19,6 +19,12 @@
       <li>
         <router-link to="/parImpar">Par o Impar</router-link>
       </li>
+      <li>
+        <router-link to="/propiedadConmutada">Propiedad Conmutada</router-link>
+      </li>
+      <li>
+        <router-link to="/metodosFilters">Métodos Filters</router-link>
+      </li>
     </ul>
   </nav>
 </template>
